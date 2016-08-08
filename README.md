@@ -1,7 +1,9 @@
 Ionic
 ===========
 
+
 Installing Ionic
+----------------
 
 http://ionicframework.com/docs/v2/getting-started/installation/
 
@@ -10,7 +12,19 @@ Make sure nodejs is installed: https://nodejs.org/en/download/
 npm install -g ionic@beta
 ```
 
-unzip clientcode.zip 
+
+Getting the code
+----------------
+
+clone this repo:
+```
+git clone https://github.com/rt-heroku/michaels-client.git
+```
+
+Or download as a zip file.
+
+Platforms
+---------
 
 add iOS and Android platforms
 
@@ -43,11 +57,18 @@ To emulate:
 ionic emulate ios
 ```
 
+Modifying the app
+-----------------
+
 Once the server app is up and running, make sure to change the services of the app to point to the new url.
 app -> services -> *-services.ts
 
-And replace:
-http://michaels-services.herokuapp.com
-with your new url:
-http://<your new app>.herokuapp.com
 
+And replace:
+```
+http://michaels-services.herokuapp.com
+```
+with your new url:
+```
+http://<your new app>.herokuapp.com
+```
