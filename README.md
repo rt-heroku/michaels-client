@@ -61,8 +61,10 @@ Modifying the app
 -----------------
 
 Once the server app is up and running, make sure to change the services of the app to point to the new url.
-app -> services -> *-services.ts
 
+> **Note**
+> The services app are located in
+> app -> services -> *-services.ts
 
 And replace:
 ```
