@@ -42,3 +42,12 @@ To emulate:
 ```
 ionic emulate ios
 ```
+
+Once the server app is up and running, make sure to change the services of the app to point to the new url.
+app -> services -> *-services.ts
+
+And replace:
+http://michaels-services.herokuapp.com
+with your new url:
+http://<your new app>.herokuapp.com
+
