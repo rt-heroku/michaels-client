@@ -1,5 +1,5 @@
-Ionic
-===========
+Michael's Mobile app
+==========
 
 
 Installing Ionic
