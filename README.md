@@ -10,7 +10,9 @@ npm install -g ionic@beta
 unzip clientcode.zip 
 
 add iOS and Android platforms
+
 ionic platform add ios
+
 ionic platform add android
 
 To start all 3 platforms in a browser:
