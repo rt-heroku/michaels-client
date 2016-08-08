@@ -28,7 +28,7 @@ Or download as a zip file.
 Platforms
 ---------
 
-add iOS and Android platforms
+To add iOS and Android platforms
 
 ```
 ionic platform add ios
